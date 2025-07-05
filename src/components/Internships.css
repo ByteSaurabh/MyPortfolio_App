@@ -1,0 +1,27 @@
+.internships-section {
+  padding: 70px 20px;
+  background: #0e0f1a;
+  color: white;
+  text-align: center;
+}
+
+.internships-grid {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.intern-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 4px solid #00ffc8;
+  transition: all 0.3s ease;
+}
+
+.intern-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px #00ffc8;
+}
