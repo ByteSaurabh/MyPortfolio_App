@@ -17,18 +17,18 @@ const projects = [
   {
     title: 'Meme ToDo App',
     description: 'A hilarious productivity app that roasts you with memes until you finish your tasks. Fun meets functionality!',
-    tech: ['React', 'Context API', 'Tailwind CSS'],
+    tech: ['React', 'Context API', 'Tailwind CSS', 'Framer Motion'],
     link: 'https://meme-todo-list.vercel.app/' // Example link
   },
   {
     title: 'My Portfolio App',
     description: 'A personal portfolio showcasing my projects and skills.',
-    tech: ['React', 'Context API', 'Tailwind CSS'],
+    tech: ['React', 'Context API', 'Tailwind CSS', 'Framer Motion'],
     link: 'https://saurabh-portfolio-iota.vercel.app/' // Example link
   },
   {
     title: 'Sharehood: Community Sharing & Rental Platform',
-    description: 'A full-stack web application that enables local communities to share, rent, and exchange items or services seamlessly. It fosters trust through user ratings, location-based matching, real-time messaging, and a commission-based revenue model.',
+    description: 'A full-stack web application that enables local communities to share, rent, and exchange items.',
     tech: ['React', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Socket.io'],
     link: 'https://sharehood.shop/' // Example link
   }
@@ -50,16 +50,14 @@ const Projects = () => {
                 <span key={i} className="tech-badge">{tech}</span>
               ))}
             </div>
-            {proj.link && (
-              <a
-                href={proj.link}
-                target="_blank"
-                rel="noreferrer"
-                className="project-link"
-              >
-                🔗 View Project
-              </a>
-            )}
+            <a
+              href={proj.link}
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              🔗 View Links
+            </a>
           </div>
         ))}
       </div>

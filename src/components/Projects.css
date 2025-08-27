@@ -1,19 +1,22 @@
 .project-link {
   display: inline-block;
   margin-top: 12px;
-  padding: 8px 18px;
-  background: #00ffc8;
+  padding: 10px 22px;
+  background: linear-gradient(90deg, #00ffc8 0%, #00c6a0 100%);
   color: #222;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 12px;
   text-decoration: none;
-  box-shadow: 0 0 10px #00ffc8;
-  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 0 18px #00ffc8, 0 0 30px #00c6a0;
+  transition: box-shadow 0.3s, background 0.3s, color 0.3s;
+  letter-spacing: 1px;
 }
 
 .project-link:hover {
-  background: #00c6a0;
+  background: linear-gradient(90deg, #00c6a0 0%, #00ffc8 100%);
   color: #fff;
+  box-shadow: 0 0 40px #00ffc8, 0 0 60px #00c6a0;
+  filter: brightness(1.2) drop-shadow(0 0 8px #00ffc8);
 }
 .projects-section {
   padding: 80px 20px;
