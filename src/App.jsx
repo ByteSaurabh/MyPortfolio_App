@@ -12,17 +12,9 @@ import Achievements from './components/Achievements';
 
 
 function App() {
-  const [theme, setTheme] = useState('light');
-
-  const toggleTheme = () => {
-    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
-  };
 
   return (
-    <div className={`app-container ${theme}`}>
-      <button className="mode-toggle" onClick={toggleTheme}>
-        {theme === 'light' ? '🌙 Dark Mode' : '☀️ Light Mode'}
-      </button>
+    <div className="app-container">
       <Hero />
       <Projects />
       <Skills />

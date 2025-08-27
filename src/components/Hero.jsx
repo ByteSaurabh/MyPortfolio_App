@@ -1,13 +1,17 @@
 // src/components/Hero.jsx
 
 import React from 'react';
+import mypic from '../assets/mypic.jpg';
 import { TypeAnimation } from 'react-type-animation';
 import './Hero.css';
 
 function Hero() {
   return (
     <section className="hero">
-      <h1 className="hero-title">Hi, I'm <span>Saurabh Sharma</span></h1>
+      <div className="hero-header">
+        <h1 className="hero-title">Hi, I'm <span>Saurabh Sharma</span></h1>
+        <img src={mypic} alt="Saurabh" className="hero-pic" />
+      </div>
 
       <TypeAnimation
         sequence={[

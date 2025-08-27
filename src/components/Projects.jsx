@@ -6,31 +6,31 @@ const projects = [
     title: 'Promise Pulse',
     description: 'Track MP/MLA promises, raise concerns, and vote on fulfillment using a React Native app with Firebase backend.',
     tech: ['React Native', 'Firebase', 'MongoDB', 'JWT'],
-    //link: '' // 🔗 Add GitHub or demo link here
+    link: 'https://github.com/ByteSaurabh/promise-pulse' // Example link
   },
   {
     title: 'Rail Madad AI Classifier',
     description: 'An AI-based classifier for Indian Railways complaint system using NLP and sentiment analysis.',
     tech: ['Python', 'Scikit-learn', 'Pandas', 'TensorFlow'],
-    //link: '' // 🔗 Add project link here
+    link: 'https://github.com/ByteSaurabh/rail-madad-ai' // Example link
   },
   {
     title: 'Meme ToDo App',
     description: 'A hilarious productivity app that roasts you with memes until you finish your tasks. Fun meets functionality!',
     tech: ['React', 'Context API', 'Tailwind CSS'],
-    //link: '' // 🔗 Paste Meme ToDo GitHub/demo link here
+    link: 'https://github.com/ByteSaurabh/meme-todo' // Example link
   },
   {
     title: 'My Portfolio App',
     description: 'A personal portfolio showcasing my projects and skills.',
     tech: ['React', 'Context API', 'Tailwind CSS'],
-    //link: '' // 🔗 Paste Meme ToDo GitHub/demo link here
+    link: 'https://github.com/ByteSaurabh/MyPortfolio_App' // Example link
   },
   {
     title: 'AgriSmart SolarBot: AI-Driven Farming',
     description: 'An AI-powered chatbot designed to assist farmers with real-time information on crop management, pest control, and sustainable practices.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'OpenCV', 'TensorFlow'],
-    //link: '' // 🔗 Paste AgriSmart SolarBot GitHub/demo link here
+    link: 'https://github.com/ByteSaurabh/agri-smart-solarbot' // Example link
   }
   
 ];
