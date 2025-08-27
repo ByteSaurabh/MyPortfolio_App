@@ -6,32 +6,33 @@ const projects = [
     title: 'Promise Pulse',
     description: 'Track MP/MLA promises, raise concerns, and vote on fulfillment using a React Native app with Firebase backend.',
     tech: ['React Native', 'Firebase', 'MongoDB', 'JWT'],
-    link: 'https://github.com/ByteSaurabh/promise-pulse' // Example link
+    link: 'https://promise-pulse.vercel.app/' // Example link
   },
   {
     title: 'Rail Madad AI Classifier',
     description: 'An AI-based classifier for Indian Railways complaint system using NLP and sentiment analysis.',
     tech: ['Python', 'Scikit-learn', 'Pandas', 'TensorFlow'],
-    link: 'https://github.com/ByteSaurabh/rail-madad-ai' // Example link
+    link: 'https://railmadad-ai.vercel.app/' // Example link
   },
   {
     title: 'Meme ToDo App',
     description: 'A hilarious productivity app that roasts you with memes until you finish your tasks. Fun meets functionality!',
     tech: ['React', 'Context API', 'Tailwind CSS'],
-    link: 'https://github.com/ByteSaurabh/meme-todo' // Example link
+    link: 'https://meme-todo-list.vercel.app/' // Example link
   },
   {
     title: 'My Portfolio App',
     description: 'A personal portfolio showcasing my projects and skills.',
     tech: ['React', 'Context API', 'Tailwind CSS'],
-    link: 'https://github.com/ByteSaurabh/MyPortfolio_App' // Example link
+    link: 'https://saurabh-portfolio-iota.vercel.app/' // Example link
   },
   {
-    title: 'AgriSmart SolarBot: AI-Driven Farming',
-    description: 'An AI-powered chatbot designed to assist farmers with real-time information on crop management, pest control, and sustainable practices.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'OpenCV', 'TensorFlow'],
-    link: 'https://github.com/ByteSaurabh/agri-smart-solarbot' // Example link
+    title: 'Sharehood: Community Sharing & Rental Platform',
+    description: 'A full-stack web application that enables local communities to share, rent, and exchange items or services seamlessly. It fosters trust through user ratings, location-based matching, real-time messaging, and a commission-based revenue model.',
+    tech: ['React', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Socket.io'],
+    link: 'https://sharehood.shop/' // Example link
   }
+
   
 ];
 
