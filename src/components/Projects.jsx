@@ -27,6 +27,13 @@ const projects = [
     link: 'https://saurabh-portfolio-iota.vercel.app/' // Example link
   },
   {
+  title: 'NextMovie: AI Movie Recommendation System',
+  description: 'A web app that suggests personalized movies using AI-based recommendation algorithms.',
+  tech: ['React', 'Tailwind CSS', 'Flask', 'Python', 'scikit-learn', 'MongoDB', 'JWT', 'TMDb API'],
+  link: 'https://github.com/ByteSaurabh/NextMovie' // Example link
+},
+
+  {
     title: 'Sharehood: Community Sharing & Rental Platform',
     description: 'A full-stack web application that enables local communities to share, rent, and exchange items.',
     tech: ['React', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Socket.io'],
