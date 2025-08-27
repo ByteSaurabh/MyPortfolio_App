@@ -56,7 +56,7 @@ const Projects = () => {
               rel="noreferrer"
               className="project-link"
             >
-              🔗 View Links
+              🔗 View Live
             </a>
           </div>
         ))}

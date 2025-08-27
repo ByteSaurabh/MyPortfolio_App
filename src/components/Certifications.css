@@ -7,21 +7,25 @@
 
 .certifications-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
   margin-top: 30px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cert-card {
   background-color: #111;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 25px;
+  border-radius: 15px;
   box-shadow: 0 0 10px #00ffc8;
-  transition: transform 0.2s ease;
+  transition: 0.3s ease;
 }
 
 .cert-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 0 30px #00ffc8, 0 0 60px #00c6a0;
 }
 
 .cert-card h3 {
@@ -34,4 +38,11 @@
   margin-top: 10px;
   color: #00ffc8;
   text-decoration: underline;
+  transition: box-shadow 0.3s, color 0.3s;
+}
+
+.cert-link:hover {
+  color: #fff;
+  box-shadow: 0 0 18px #00ffc8, 0 0 30px #00c6a0;
+  filter: brightness(1.2) drop-shadow(0 0 8px #00ffc8);
 }

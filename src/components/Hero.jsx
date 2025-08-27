@@ -1,7 +1,6 @@
 // src/components/Hero.jsx
 
 import React from 'react';
-import mypic from '../assets/mypic.jpg';
 import { TypeAnimation } from 'react-type-animation';
 import './Hero.css';
 
@@ -10,7 +9,6 @@ function Hero() {
     <section className="hero">
       <div className="hero-header">
         <h1 className="hero-title">Hi, I'm <span>Saurabh Sharma</span></h1>
-        <img src={mypic} alt="Saurabh" className="hero-pic" />
       </div>
 
       <TypeAnimation
